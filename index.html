@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Visitante - Refúgio para as Nações</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Formulário de Visitante - Refúgio para as Nações</h1>
+        <p>Obrigado por visitar nossa igreja! Preencha as informações abaixo para que possamos conhecê-lo melhor e manter você em nossas orações.</p>
+        <form id="visitor-form">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="data_nascimento">Data de Nascimento:</label>
+            <input type="date" id="data_nascimento" name="data_nascimento" required>
+
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco" required>
+
+            <label for="bairro">Bairro:</label>
+            <input type="text" id="bairro" name="bairro" required>
+
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" required>
+
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado" name="estado" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+
+            <label for="conheceu">Como conheceu nossa igreja?</label>
+            <textarea id="conheceu" name="conheceu" rows="3" required></textarea>
+
+            <label for="frequentou">Você já frequentou outra igreja?</label>
+            <textarea id="frequentou" name="frequentou" rows="3" required></textarea>
+
+            <button type="submit" class="submit-btn">Enviar</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
